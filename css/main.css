@@ -1,0 +1,124 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #86D1F0 0%, #1868AE 100%);
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  color: #000;
+  line-height: 2;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+    font-weight: 90;
+}
+#container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #c6d7eb;
+    padding: 3rem;
+}
+
+#container p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#roads {
+    width: 70%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+}
+
+input {
+    width: 100%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.3rem;
+    padding: 4px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+a {
+    color: #00008B;
+}
+
+a:hover {
+    color: #1868AE;
+}
+
+
+input[type="submit"] {
+    background-color: #1868AE;
+    color: #fff;
+    padding: 0.5rem 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 90;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #00008B;
+}
+
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+empty-cells: show;
+border: 4px outset #00008B;
+background: #86D1F0;
+margin: 20px auto;
+}
+
+td, th {
+font-size: inherit;
+margin: 0;
+padding: 1rem 1.5rem;
+}
+
+th {
+background-image: linear-gradient(to right, #86D1F0 0%, #1868AE 100%);
+text-align: center;
+vertical-align: bottom;
+}
+
+tr:nth-child(2n-1) td {
+background: #1868AE;
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-image: none;
+    background: #c6d7eb;
+  }
+  #container {
+    margin:  auto;
+    }
+  table {
+    width: 100%;
+    margin: auto;
+  }
+}
